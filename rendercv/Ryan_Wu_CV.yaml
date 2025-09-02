@@ -1,0 +1,272 @@
+cv:
+  name: Ryan Wu
+  location: New Territories, Hong Kong
+  email: ryanwu7275@gmail.com
+  phone: +852-5502-7972
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: wing-fung-wu
+    - network: GitHub
+      username: WingFungWu
+  sections:
+    education:
+      - institution: California Polytechnic State University
+        area: Computer Science
+        degree: BS
+        date: 
+        start_date: 2019-09
+        end_date: 2023-06
+        location: San Luis Obispo, CA, USA
+        summary:
+        highlights:
+          - "Honors: Dean's Honors List"
+          - "Campus Experience: Tutor at Cal Poly CSSE Tutoring Center"
+    experience:
+      - company: Lively Impact
+        position: Software Developer
+        date: 
+        start_date: 2023-12
+        end_date: 2025-02
+        location: Science Park, NT, Hong Kong
+        summary:
+        highlights:
+          - "Maintained and developed multiple government projects with HKPF, FEHD, HyD, HD"
+          - "Optimized calculations on luminosity and RGB from photos to save computation time"
+          - "***Leveraged knowledge*** in Git, Liquibase, Docker, Angular, Java, Spring Boot, MySQL, MongoDB"
+      - company: Swire Properties
+        position: Software Engineer 
+        date:
+        start_date: 2025-02
+        end_date: present
+        location: Quarry Bay, HK, Hong Kong
+        summary:
+        highlights:
+          - "Maintained and developed multiple internal projects"
+          - "Assisted in troubleshooting and resolving technical issues, demonstrating problem-solving skills and a proactive approach to tackling challenges in a fast-paced environment"
+          - "***Leveraged knowledge*** in Jira, Git, Azure Devops, Angular, Java, Spring Boot, MySQL, ASP.Net Core, ASP.Net Razor, Microsoft SQL Server"
+    projects:
+      - name: Security Operations Centre Alliance (SOCA)
+        date:
+        start_date: 2023-12
+        end_date: 2025-02
+        location: Lively Impact
+        summary:  Maintain, develop, and deploy a cyber security report platform hosted by HKPF, where users such as finance institutions and network providers can share indicators of compromise (IoC)
+        highlights:
+          - "Implemented IoC newsletter with Spring Schedule"
+          - "Implemented IoC enrichment with Spring Batch"
+          - "***Leveraged knowledge*** in Angular, Restful, Spring Batch, Spring Schedule, Docker"
+      - name: "[Data Canva](https://www.livelyimpact.com/data-automation-platform-950/)"
+        date: 
+        start_date: 2024-06
+        end_date: 2025-02
+        location: Lively Impact
+        summary: Maintain, develop, and deploy a multi-purpose platform that helps users store and process data, and only requires users to have minimum sql knowledge
+        highlights:
+          - "Troubleshooted thread saturation problem"
+          - "***Leveraged knowledge*** in Java, Restful, Nikto"
+      - name: "[IoT Platform](https://inno.emsd.gov.hk/tc/trial-project/index_id_255.html)"
+        date: 
+        start_date: 2024-02
+        end_date: 2025-02
+        location: Lively Impact
+        summary: Maintain, develop, and deploy a surveillance platform that gathers IoT device data from both http and tcp, and guarantees to send real time alarms to device operators
+        highlights:
+          - "Created Restful API for IoT data http transfer"
+          - "Used Modbus TCP to collect IoT data"
+          - "Created user interface with [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)"
+          - "***Leveraged knowledge*** in Angular, Modbus, Restful, Spring Schedule, Docker"
+      - name: Carpark Middleware
+        date: 
+        start_date: 2025-02
+        end_date: present
+        location: Swire Properties
+        summary: "Maintain and develop carpark middleware of Swire business units: Cityplaza, Pacific Plaza, and Citygate Outlets"
+        highlights:
+          - "Participated in integration testing"
+          - "Troubleshooted incorrect business logics"
+          - "Migrated CI/CD from Jenkins to Azure Devops"
+          - "***Leveraged knowledge*** in Java, Jenkins, Azure Devops, Argo CD, Dynatrace"
+      - name: Reimbursement Web Application
+        date: 
+        start_date: 2025-02
+        end_date: present
+        location: Swire Properties
+        summary: Maintain and develop Swire reimbursement web application
+        highlights:
+          - "Troubleshooted frontend and backend bugs"
+          - "Developed new features as required, e.g. graceful exception handling"
+          - "Resolved users' enquiries"
+          - "***Leveraged knowledge*** in Angular, ASP.NET Core"
+      - name: "[Hong Kong Mortgagee Properties Web Application](https://np2.hk/)"
+        date: 
+        start_date: 2025-08
+        end_date: present
+        location: 
+        summary: Maintain and develop backend server
+        highlights:
+          - "Designed microservice architecture"
+          - "Developed new features as required"
+          - "Integrated with loki, prometheus, grafana for monitoring"
+          - "***Leveraged knowledge*** in Java, Spring Boot, PostgreSQL, Redis, Minio, Consul, Loki, Prometheus, Grafana, Liquibase, Docker, Github Actions"
+    skills:
+      - label: Proficient
+        details: Angular, Java, Spring Boot, MySQL, PostgreSQL, Git, Liquibase, Docker
+      - label: Familiar
+        details: ASP.NET Core, ASP.NET Razor, MongoDB, Microsoft SQL Server, Azure Devops
+      - label: Languages
+        details: English (proficient), Cantonese (native), Mandarin (native)
+    # numbered_entries:
+    #   - number: This is a numbered entry.
+    #   - number: This is another numbered entry.
+    #   - number: This is the third numbered entry.
+    # reversed_numbered_entries:
+    #   - reversed_number: This is a reversed numbered entry.
+    #   - reversed_number: This is another reversed numbered entry.
+    #   - reversed_number: This is the third reversed numbered entry.
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-09-03'
+  render_command:
+  bold_keywords: []
