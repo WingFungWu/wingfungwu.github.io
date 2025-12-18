@@ -330,7 +330,15 @@ See the [documentation](https://docs.rendercv.com/) for more details
 
 ```bash
 # Windows Git Bash
-docker run -v //d/workspace/wingfungwu.github.io:/work -w //work ghcr.io/rendercv/rendercv render "Ryan_Wu_CV.yaml"
+$ docker run -v //d/workspace/wingfungwu.github.io:/work -w //work ghcr.io/rendercv/rendercv render "Ryan_Wu_CV.yaml"
+
+# Ubuntu Setup
+$ python3 -m venv runtime
+$ source runtime/bin/activate
+$ pip3 install "rendercv[full]"
+
+# Ubuntu Runtime
+$ rendercv render --watch Ryan_Wu_CV.yaml
 ```
 
 ---
