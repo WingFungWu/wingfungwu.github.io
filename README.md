@@ -3,7 +3,7 @@
 ## A minimal portfolio template for Developers!
 
 <h2 align="center">
-  <img src="https://github.com/cobiwave/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <img src="examples/example.gif" alt="Simplefolio" width="600px" />
   <br>
 </h2>
 
@@ -101,7 +101,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
 
 <h2 align="center">
-  <img src="https://github.com/cobiwave/gatsby-simplefolio/blob/master/examples/example.png" alt="Simplefolio" width="100%">
+  <img src="examples/example.png" alt="Simplefolio" width="100%">
 </h2>
 
 ---
@@ -320,6 +320,17 @@ If you want to get some gradients inspiration I highly recommend you to check th
 // Default values
 $main-color: #02aab0;
 $secondary-color: #00cdac;
+```
+
+### Step 3 - CV
+
+Many thanks to [rendercv](https://github.com/rendercv/rendercv)
+
+See the [documentation](https://docs.rendercv.com/) for more details
+
+```bash
+# Windows Git Bash
+docker run -v //d/workspace/wingfungwu.github.io:/work -w //work ghcr.io/rendercv/rendercv render "Ryan_Wu_CV.yaml"
 ```
 
 ---
