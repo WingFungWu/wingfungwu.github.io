@@ -77,7 +77,7 @@ Maintain and develop Swire reimbursement web application
 
 - Troubleshot and resolved issues
 
-- Enhanced existing features, e.g. integrated with Azure AI Services to build a OCR system, revamped K2 reimbursement workflow to Azure Logic Apps, revamped EF Core query to stored procedure and added index to improve performance, etc.
+- Enhanced existing features, e.g. integrated with Azure AI Services to build an OCR system, revamped K2 reimbursement workflow to Azure Logic Apps, revamped EF Core query to stored procedure and added index to improve performance, etc.
 
 - ***Leveraged knowledge*** in Angular, ASP.NET Core, Microsoft SQL Server, Azure AI Services, Azure Logic Apps
 
