@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
   name: Ryan Wu
-  location: Tseung Kwan O, NT, Hong Kong
+  location: 
   email: ryanwu7275@gmail.com
-  phone: +852-5502-7972
+  phone: 
   website: https://wingfungwu.github.io
   social_networks:
     - network: LinkedIn
       username: wing-fung-wu
-    - network: GitHub
-      username: WingFungWu
+    # - network: GitHub
+    #   username: WingFungWu
   sections:
     education:
       - institution: California Polytechnic State University
@@ -70,19 +70,18 @@ cv:
       - name: Reimbursement Web Application
         date: 
         start_date: 2025-02
-        end_date: 2025-09
+        end_date: present
         location: Swire Properties
         summary: Maintain and develop Swire reimbursement web application
         highlights:
-          - "Troubleshooted frontend and backend bugs"
-          - "Developed new features as required, e.g. graceful exception handling"
-          - "Resolved users' enquiries"
-          - "***Leveraged knowledge*** in Angular, ASP.NET Core"
+          - "Troubleshot and resolved issues"
+          - "Enhanced existing features, e.g. integrated with Azure AI Services to build a OCR system, revamped K2 reimbursement workflow to Azure Logic Apps, revamped EF Core query to stored procedure and added index to improve performance, etc."
+          - "***Leveraged knowledge*** in Angular, ASP.NET Core, Microsoft SQL Server, Azure AI Services, Azure Logic Apps"
     skills:
       - label: Proficient
-        details: Angular, Java, Spring Boot, MySQL, PostgreSQL, Git, Liquibase, Docker
+        details: Angular, C#, ASP.NET Core, Java, Spring Boot, Microsoft SQL Server, MySQL, Git, Liquibase, Docker
       - label: Familiar
-        details: ASP.NET Core, MongoDB, Microsoft SQL Server, Azure Devops
+        details: MongoDB, PostgreSQL, Azure DevOps
       - label: Languages
         details: English (proficient), Cantonese (native), Mandarin (native)
     # numbered_entries:
@@ -259,7 +258,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: "2025-12-19"
+  current_date: "2026-10-20"
   render_command:
     design:
     locale:
